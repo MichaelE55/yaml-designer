@@ -1,6 +1,11 @@
+Installation
+------------
 
-#Features
--------
+``pip install yaml-designer``
+
+
+Features
+---------
 
 Easily build yaml classes and convert to a yaml file when done
 
@@ -13,11 +18,6 @@ Each class has the following functionality:
 - yaml() #Returns a yamlized version of the class to be used as value for other yaml classes
 
 - build(string filename) #Builds the yaml file from the yaml class and outputs to desired filename
-
-installation
--------
-
-pip install yaml-designer
 
 
 Example
@@ -37,9 +37,9 @@ myclass.build("output.yaml")
 
 
 Requirements
--------
+------------
 
-pip install pyyaml
+pyyaml
 
 
 License
